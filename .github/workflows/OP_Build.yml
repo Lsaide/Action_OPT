@@ -3,7 +3,7 @@ name: OP_Build
 on:
   workflow_dispatch:
     inputs:
-      ROM_URL:
+      ROM_URL:https://component-ota-afs.coloros.com/component-ota/22/08/31/e19686e8408c43679c6c010aa8589a90.zip
         description: 'ROM_URL'
         required: true
         default: 'https://component-ota-afs.coloros.com/component-ota/22/08/31/e19686e8408c43679c6c010aa8589a90.zip'
@@ -11,7 +11,7 @@ on:
         description: '是否上传阿里云盘'
         required: true
         default: '0'
-      REPACK_NAME:
+      REPACK_NAME: oppo
         description: 'REPACK_NAME'
         required: true
         default: 'ROM.7z'
