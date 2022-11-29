@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://dl3.smartisan.com/ota/mol.darwin-ard11-rom-8.5.0-SEKSA.darwin-user/202207181841/8.5.3-202207181710-user-drw-afb56dfbfc.zip'
+        default: 'https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1381725f1107d5c0f0e97a2e2bcc8fab/component-ota/22/11/11/ea270dda4b0b4e31a769d4a137885644.zip'
       ALI:
         description: '是否上传阿里云盘'
         required: true
